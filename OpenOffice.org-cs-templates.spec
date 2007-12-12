@@ -3,7 +3,7 @@
 Summary: Czech templates for the OpenOffice.org suite
 Name:    %{_name} 
 Version: 012004
-Release: 1mdk
+Release: %mkrel 1
 License: LGPL
 Group:   Office
 Source0: OpenOffice.org-cs-templates.tar.bz2
