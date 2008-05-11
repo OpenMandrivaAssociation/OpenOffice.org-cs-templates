@@ -3,14 +3,13 @@
 Summary: Czech templates for the OpenOffice.org suite
 Name:    %{_name} 
 Version: 012004
-Release: %mkrel 1
+Release: %mkrel 2
 License: LGPL
 Group:   Office
 Source0: OpenOffice.org-cs-templates.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 Requires: OpenOffice.org-l10n-cs
 URL: http://oo-cs.sourceforge.net/templates/index.php
-BuildArch: noarch
 
 %description
 Czech templates for the OpenOffice.org suite.
