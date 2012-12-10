@@ -33,3 +33,35 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/openoffice/share/template/czech/*.stc
 %{_libdir}/openoffice/share/template/czech/*.std
 
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 012004-5mdv2011.0
++ Revision: 616418
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 012004-4mdv2010.0
++ Revision: 430214
+- rebuild
+
+* Thu Aug 07 2008 Thierry Vignaud <tv@mandriva.org> 012004-3mdv2009.0
++ Revision: 266090
+- rebuild early 2009.0 package (before pixel changes)
+
+* Sun May 11 2008 Nicolas Lécureuil <nlecureuil@mandriva.com> 012004-2mdv2009.0
++ Revision: 205687
+- Should not be noarch ed
+
+* Thu Jan 03 2008 Olivier Blin <oblin@mandriva.com> 012004-1mdv2008.1
++ Revision: 141036
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - use %%mkrel
+    - import OpenOffice.org-cs-templates
+
+
+* Mon Sep 27 2004 Robert Vojta <robert.vojta@mandrake.org> 012004-1mdk
+- initial package
+
